@@ -32,3 +32,5 @@ In order to accomplish this the following procedure is followed:
 * Merge subject and activity datasets with measurement data sets for both test and train cases
 * Merge Test and train cases
 * Assign names to variables
+
+Variable information set in code Book
