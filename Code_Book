@@ -1,0 +1,37 @@
+# Variables
+## Subject
+Number identifying subject in study
+## Activity
+Activity being performed during measurements
+##BodyAcc-mean()x,y,z
+Refers to the mean of the measurements taken by the body accelerometer in the x, y and z components.
+##BodyAcc-std()x,y,z
+Refers to the standard deviation of measurements taken by the body accelerometer in the x, y and z components.
+##GravityAcc-mean() x,y,z
+Refers to the mean of measurements due to gravity in the x,y and z  components.
+##GravityAcc-std() x,y,z
+Refers to the standard deviation of measurements due to gravity in the x,y and z  components.
+##BodyAccJerk-mean()-X,Y,Z
+Refers to the mean of jerk signals from the accelerometer which were obtained by deriving the linear acceleration and angular velocity in time (see features info
+in downloaded files.
+##BodyAccJerk-std()-X,Y,Z
+Refers to the standard deviation of jerk signals from the accelerometer which were obtained by deriving the linear acceleration and angular velocity in time (see features info
+in downloaded files.
+##BodyGyro-mean()x,y,z
+Refers to the mean of the measurements taken by the gyroscope in the x, y and z components.
+##BodyGyro-std()x,y,z
+Refers to the standard deviation of measurements taken by the gyroscope in the x, y and z components.
+##BodyGyroJerk-mean()-X,Y,Z
+Refers to the mean of jerk signals from the gyroscope which were obtained by deriving the linear acceleration and angular velocity in time (see features info
+in downloaded files.
+##BodyGyroJerk-std()-X,Y,Z
+Refers to the standard deviation of jerk signals from the gyroscope which were obtained by deriving the linear acceleration and angular velocity in time (see features info
+in downloaded files.
+##BodyAccMag-mean()
+Refers to the mean of the magnitude of the accelerometer calculated using the Euclidean norm.
+##BodyAccMag-std()
+Refers to the standard deviation of the magnitude of the accelerometer calculated using the Euclidean norm.
+##BodyGyroMag-mean()
+Refers to the mean of the magnitude of the gyroscope calculated using the Euclidean norm.
+##BodyGyroMag-std()
+Refers to the standard deviation of the magnitude of the gyroscope calculated using the Euclidean norm.
