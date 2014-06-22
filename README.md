@@ -11,12 +11,12 @@ Here are the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
- You should create one R script called run_analysis.R that does the following. 
-Merges the training and the test sets to create one data set.
-Extracts only the measurements on the mean and standard deviation for each measurement. 
-Uses descriptive activity names to name the activities in the data set
-Appropriately labels the data set with descriptive variable names. 
-Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+You should create one R script called run_analysis.R that does the following. 
+*Merges the training and the test sets to create one data set.
+*Extracts only the measurements on the mean and standard deviation for each measurement. 
+*Uses descriptive activity names to name the activities in the data set
+*Appropriately labels the data set with descriptive variable names. 
+*Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 Good luck!
 ##Work Process
 Compressed file is downloaded and files are extracted to a working directory(WD)
@@ -24,3 +24,5 @@ The structure should be a single subdirectory within the WD called UCI HAR Datas
 in the original compressed file.
 Execute run_analysis.r contained in the WD.
 ##Procedure Breakdown
+The UCI HAR Dataset directory contains two subdirectories: test and train which each contain datasets of gyroscope and accelerometer information gathered from volunteers using a Samsung Galaxy SII (Readme file contains more detailed information on the datasets).
+This projects main goal is to merge the train and test datatasets, extract mean and std deviation measurements and present them in a tidy data set with descriptive variable names and activity names.
