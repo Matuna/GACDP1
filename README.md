@@ -27,3 +27,8 @@ Execute run_analysis.r contained in the WD.
 ##Procedure Breakdown
 The UCI HAR Dataset directory contains two subdirectories: test and train which each contain datasets of gyroscope and accelerometer information gathered from volunteers using a Samsung Galaxy SII (Readme file contains more detailed information on the datasets).
 This projects main goal is to merge the train and test datatasets, extract mean and std deviation measurements and present them in a tidy data set with descriptive variable names and activity names.
+In order to accomplish this the following procedure is followed:
+* Load datasets into R
+* Merge subject and activity datasets with measurement data sets for both test and train cases
+* Merge Test and train cases
+* Assign names to variables
